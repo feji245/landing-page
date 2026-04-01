@@ -5,18 +5,41 @@
         <meta charset="UTF-8">
         <meta name="author" content="fejiro">
         <meta name="description" content="This page contains all the things i am learning how to create as i learn HTML.">
-        <title>my first web page</title>
-        <link rel="icon" href="html (1).svg" type="image/x-icon">        
+        <title>Assigment</title>
+         <!--css-->
+        <style>
+            body {
+                font-family: Arial;
+                text-align: center;
+                margin-top: 50px;
+            }
+            button{
+                padding: 10px 20px;
+                background-color: rgb(80, 77, 227);
+                color: aliceblue;
+                border: none;
+                cursor: pointer;
+            }
+        </style>      
     </head>
 
     <body>
-        <h1>Hello world</h1>
+        
+        <h1> JavaScript Assigment</h1>
 
-        <h2>i am ready to learn html</h2>
-        <p>This is my first webpage</p>
+        <input type="text"id="name" placeholder="Name"><br><br>
+        <input type="number" id="age" placeholder="Age"><br><br>
+        
+        <button id="btn"> click here</button>
 
-        <h3>i am ready to learn html</h3>
-        <p>This is my first webpage</p>    
+        <button onclick="sayHello()">click me now</button>
+
+        <button id="greetbtn">greet me</button>
+        <p id="Message"></p>
+
+        
+        <script src="first.js"></script>
+
     </body>
 
 </html>
